@@ -1,0 +1,38 @@
+.CurrentWeather {
+  margin-bottom: 16px;
+  padding: 12px 24px;
+  background-color: #161c34;
+  border-radius: 6px;
+  text-align: center;
+  color: #fff;
+  .WeatherIcon {
+    margin-bottom: 4px;
+    color: #161c34;
+  }
+  &__title {
+    margin-bottom: 16px;
+    color: #fff;
+    font-size: 36px;
+  }
+  &__temp {
+    margin-bottom: 16px;
+    color: #fff;
+    font-size: 46px;
+    line-height: 0.9;
+  }
+  &__desc {
+    margin-bottom: 16px;
+    color: #fff;
+    font-size: 36px;
+    text-transform: capitalize;
+  }
+  &__date {
+    font-size: 20px;
+    color: #fff;
+  }
+  &__row {
+    margin: 0 auto !important;
+    width: 60%;
+    font-size: 16px;
+  }
+}

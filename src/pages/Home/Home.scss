@@ -1,0 +1,14 @@
+.Home {
+  &__container {
+    &:not(:last-child) {
+      margin-bottom: 64px;
+    }
+  }
+  &__title {
+    margin-bottom: 16px;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1.25px;
+  }
+}

@@ -1,0 +1,28 @@
+.Settings {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #161c34;
+  border-radius: 6px;
+  &__header {
+    margin-bottom: 0;
+    padding: 12px 24px;
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 1px solid #0e1120;
+  }
+  &__content {
+    padding: 18px 24px;
+  }
+  &__input {
+    width: 100%;
+    &-wrapper {
+      &:not(:last-child) {
+        margin-bottom: 14px
+      }
+    }
+    &-title {
+      color: #fff;
+      font-size: 14px;
+    }
+  }
+}

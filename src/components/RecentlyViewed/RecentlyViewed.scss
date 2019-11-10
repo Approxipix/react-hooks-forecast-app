@@ -1,0 +1,41 @@
+.RecentlyViewed {
+  .WeatherIcon {
+    margin-bottom: 6px;
+    width: 80px;
+    height: 55px;
+    color: #161c34;
+    font-size: 8px;
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(215px, 1fr));
+    grid-gap: 16px;
+  }
+  &__item {
+    padding: 12px;
+    background-color: #161c34;
+    border-radius: 6px;
+    text-align: center;
+    transition: transform .3s ease-in-out;
+    will-change: transform;
+    &:hover {
+      transform: translateY(-6px);
+    }
+    &-title {
+      margin-bottom: 5px;
+      color: #fff;
+      font-size: 18px;
+    }
+    &-temp {
+      margin-bottom: 0;
+      color: #fff;
+      font-size: 26px;
+    }
+    &-desc {
+      margin-bottom: 0;
+      color: #fff;
+      font-size: 18px;
+      text-transform: capitalize;
+    }
+  }
+}
