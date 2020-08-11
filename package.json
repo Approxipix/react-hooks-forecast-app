@@ -1,7 +1,8 @@
 {
   "name": "react-hooks-forecast-app",
   "version": "0.1.0",
-  "private": true,
+  "author": "Yaroslav Afanasiev <yaroslav.afanassiev@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "antd": "^3.25.0",
     "jsonp": "^0.2.1",
