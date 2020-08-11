@@ -1,13 +1,14 @@
 import * as t from './constants';
 
 const initialState = {
-  apiKey: '',
+  apiKey: localStorage.getItem('apiKey') || '',
   temperatureUnit: 'celsius',
 };
 
 const rootReducer = (state = initialState, action) => {
   switch (action.type) {
     case t.CHANGE_API_KEY:
+      localStorage.setItem('apiKey', action.payload)
       return {
         ...state,
         apiKey: action.payload

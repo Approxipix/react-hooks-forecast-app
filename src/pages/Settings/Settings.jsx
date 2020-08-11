@@ -10,11 +10,11 @@ const Settings = () => {
   const { temperatureUnit, apiKey } = useSelector(state => state.rootReducer);
   const dispatch = useDispatch();
 
-  function onApiKeyChange(key) {
+  const onApiKeyChange = key => {
     dispatch(changeApiKey(key))
   }
 
-  function onTempChange(tempUnit) {
+  const onTempChange = tempUnit => {
     dispatch(changeTemperatureUnit(tempUnit))
   }
 
@@ -33,7 +33,7 @@ const Settings = () => {
             placeholder='Enter API Key'
             className='Settings__input'
             size='large'
-            onChange={(e) => onApiKeyChange(e.target.value)}
+            onChange={e => onApiKeyChange(e.target.value)}
           />
         </div>
         <div

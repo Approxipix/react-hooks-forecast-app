@@ -8,17 +8,15 @@ import 'antd/dist/antd.min.css';
 
 const { Content } = Layout;
 
-const App = () => {
-  return (
-    <Layout className="main">
-      <Router>
-        <HeaderComponent />
-        <Content className="main__content">
-          <Routes />
-        </Content>
-      </Router>
-    </Layout>
-  );
-};
+const App = () => (
+  <Layout className="main">
+    <Router>
+      <HeaderComponent />
+      <Content className="main__content">
+        <Routes />
+      </Content>
+    </Router>
+  </Layout>
+);
 
 export default App;

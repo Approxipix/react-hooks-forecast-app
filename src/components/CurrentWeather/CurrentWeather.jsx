@@ -19,11 +19,8 @@ const CurrentWeather = (props) => {
 
   useEffect(() => {
     const recentWeather = recentWeathers.find(item => item.name.toLowerCase() === props.cityName);
-    if (!!recentWeather)
-      dispatch(setCurrentWeather(recentWeather));
-    else
-      WeatherService.getCurrentWeatherData(props.cityName);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    if (!!recentWeather) dispatch(setCurrentWeather(recentWeather));
+    else WeatherService.getCurrentWeatherData(props.cityName);
   }, []);
 
   if (responseErrorMessage) {
@@ -36,6 +33,7 @@ const CurrentWeather = (props) => {
       />
     )
   }
+
   if (!currentWeather) return null;
 
   return (

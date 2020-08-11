@@ -13,21 +13,17 @@ const SearchBar = () => {
   const [loading, setLoading] = useState(false);
   const [searchResults, setSearchResults] = useState([]);
 
-  function onSearch(city) {
+  const onSearch = city => {
     setLoading(true);
     CityService.searchCitiesByName(city)
-    .then(cities => {
-      if (cities[0] !== '%s' && cities[0] !== '')
-        setSearchResults(cities);
-      else
-        setSearchResults([])
-    })
-    .finally(() => {
-      setLoading(false)
-    });
+      .then(cities => {
+        if (cities[0] !== '%s' && cities[0] !== '') setSearchResults(cities);
+        else setSearchResults([])
+      })
+      .finally(() => setLoading(false) );
   }
   
-  function onChange(city) {
+  const onChange = city => {
     const cityName = city.split(',')[0];
     history.push(`/w/${cityName.toLowerCase()}`);
   }
@@ -42,6 +38,7 @@ const SearchBar = () => {
       />
     )
   }
+
   return (
     <Select
       placeholder='Enter city name'

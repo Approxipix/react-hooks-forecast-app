@@ -33,7 +33,7 @@ const weatherReducer = (state = initialState, action) => {
     case t.SET_COMING_WEATHER:
       const comingWeather = action.payload.list.filter(item => {
         const date = new Date(item.dt * 1000);
-        return date.getHours() === 14
+        return date.getHours() === 12
       });
       return {
         ...state,
@@ -44,7 +44,6 @@ const weatherReducer = (state = initialState, action) => {
         ...state,
         responseErrorMessage: action.payload
       };
-
     default:
       return state;
   }
