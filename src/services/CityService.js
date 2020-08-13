@@ -1,4 +1,5 @@
-const API_URL  = 'https://cors-anywhere.herokuapp.com/http://gd.geobytes.com'; // for github page
+// HTTPS enforcement is required for GitHub Pages sites
+const API_URL  = 'https://cors-anywhere.herokuapp.com/' + 'http://gd.geobytes.com';
 
 class CityService {
   static searchCitiesByName(city) {
