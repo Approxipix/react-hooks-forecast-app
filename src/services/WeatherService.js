@@ -1,7 +1,7 @@
 import store from '../redux/store'
 import { currentWeatherFetchData, comingWeatherFetchData } from '../redux/weatherReducer/actions'
 
-const API_URL  = 'http://api.openweathermap.org';
+const API_URL  = 'https://api.openweathermap.org';
 
 class WeatherService {
   static apiKey = store.getState().rootReducer.apiKey;
