@@ -14,6 +14,7 @@ const SearchBar = () => {
   const [searchResults, setSearchResults] = useState([]);
 
   const onSearch = city => {
+    if (!city) return null;
     setLoading(true);
     CityService.searchCitiesByName(city)
       .then(cities => {

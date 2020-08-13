@@ -1,15 +1,15 @@
-import jsonp from 'jsonp';
-
-const API_URL  = 'http://gd.geobytes.com';
+const API_URL  = 'https://cors-anywhere.herokuapp.com/http://gd.geobytes.com'; // for github page
 
 class CityService {
   static searchCitiesByName(city) {
-    return new Promise((resolve, reject) => {
-      jsonp(`${API_URL}/AutoCompleteCity?q=${city}`, null, (err, data) => {
-        if (err) reject(err);
-        resolve(data);
-      });
-    })
+    return fetch(`${API_URL}/AutoCompleteCity?q=${city}`)
+      .then(response => {
+        if (!response.ok) throw response;
+        return response.json();
+      })
+      .catch(error => {
+        console.log(error);
+      })
   }
 }
 
