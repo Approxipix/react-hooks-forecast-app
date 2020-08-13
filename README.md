@@ -1,4 +1,4 @@
-# React HooksF Forecast App
+# React Hooks Forecast App
 Simple application based on React/Redux with actual weather information and forecast.
 <div>
   <img alt="Last Commit" src="https://img.shields.io/github/last-commit/approxipix/react-hooks-forecast-app?color=2b9348">
@@ -8,6 +8,10 @@ Simple application based on React/Redux with actual weather information and fore
 
 ## Live Demo
 Link: https://approxipix.github.io/react-hooks-forecast-app
+
+![example](https://github.com/Approxipix/react-hooks-forecast-app/blob/master/example1.png?raw=true)
+![example](https://github.com/Approxipix/react-hooks-forecast-app/blob/master/example2.png?raw=true)
+
 
 ## Tech stack
 * [React](https://github.com/facebook/react)
@@ -53,6 +57,7 @@ You need a free API Key by [OpenWeatherMap](http://openweathermap.org/) to fetch
 You can set API Key in two ways:
 
 1. Go to ```src/redux/rootReducer/reducer.js``` and set your API Key in initial state.
+
     ```shell
     const initialState = {
       apiKey: <API_KEY>,
