@@ -1,6 +1,6 @@
 import jsonp from 'jsonp';
 
-const API_URL  = 'https://gd.geobytes.com';
+const API_URL  = 'http://gd.geobytes.com';
 
 class CityService {
   static searchCitiesByName(city) {
