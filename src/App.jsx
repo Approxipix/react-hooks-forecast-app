@@ -10,7 +10,7 @@ const { Content } = Layout;
 
 const App = () => (
   <Layout className="main">
-    <Router>
+    <Router basename={process.env.PUBLIC_URL + "/"}>
       <HeaderComponent />
       <Content className="main__content">
         <Routes />
