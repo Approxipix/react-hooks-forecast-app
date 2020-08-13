@@ -23,7 +23,7 @@ const RecentlyViewedItem = ({ weather }) => (
 );
 
 const RecentlyViewed = ({ recentWeathers }) => {
-  const lastFiveCityWeather = recentWeathers.slice(-5);
+  const lastFiveCityWeather = recentWeathers.slice(0, 5);
 
   return (
     <CSSTransition type='fade' show={lastFiveCityWeather.length !== 0} duration={600}>
