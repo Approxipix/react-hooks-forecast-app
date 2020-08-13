@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90fa1149fb00ce68662ea534352f50ff",
+    "revision": "4eb61b6214559c8cee31472d2c8177f4",
     "url": "/react-hooks-forecast-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-hooks-forecast-app/static/css/2.3d6e4bb6.chunk.css"
   },
   {
-    "revision": "2ba50be10b844f15bbf2",
+    "revision": "1ac1ac7c32b57309c2f4",
     "url": "/react-hooks-forecast-app/static/css/main.6fffc60f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-hooks-forecast-app/static/js/2.1c2395e4.chunk.js"
   },
   {
-    "revision": "2ba50be10b844f15bbf2",
-    "url": "/react-hooks-forecast-app/static/js/main.b9337875.chunk.js"
+    "revision": "1ac1ac7c32b57309c2f4",
+    "url": "/react-hooks-forecast-app/static/js/main.00bb9b9c.chunk.js"
   },
   {
     "revision": "22589caaddf8a4ee8d91",

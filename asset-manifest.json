@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-hooks-forecast-app/static/css/main.6fffc60f.chunk.css",
-    "main.js": "/react-hooks-forecast-app/static/js/main.b9337875.chunk.js",
-    "main.js.map": "/react-hooks-forecast-app/static/js/main.b9337875.chunk.js.map",
+    "main.js": "/react-hooks-forecast-app/static/js/main.00bb9b9c.chunk.js",
+    "main.js.map": "/react-hooks-forecast-app/static/js/main.00bb9b9c.chunk.js.map",
     "runtime-main.js": "/react-hooks-forecast-app/static/js/runtime-main.be78237b.js",
     "runtime-main.js.map": "/react-hooks-forecast-app/static/js/runtime-main.be78237b.js.map",
     "static/css/2.3d6e4bb6.chunk.css": "/react-hooks-forecast-app/static/css/2.3d6e4bb6.chunk.css",
     "static/js/2.1c2395e4.chunk.js": "/react-hooks-forecast-app/static/js/2.1c2395e4.chunk.js",
     "static/js/2.1c2395e4.chunk.js.map": "/react-hooks-forecast-app/static/js/2.1c2395e4.chunk.js.map",
     "index.html": "/react-hooks-forecast-app/index.html",
-    "precache-manifest.1506a9f8f67afb03a2658dc4bdaaca05.js": "/react-hooks-forecast-app/precache-manifest.1506a9f8f67afb03a2658dc4bdaaca05.js",
+    "precache-manifest.29c8b5af53fc5f16fed6b5a286e1646e.js": "/react-hooks-forecast-app/precache-manifest.29c8b5af53fc5f16fed6b5a286e1646e.js",
     "service-worker.js": "/react-hooks-forecast-app/service-worker.js",
     "static/css/2.3d6e4bb6.chunk.css.map": "/react-hooks-forecast-app/static/css/2.3d6e4bb6.chunk.css.map",
     "static/css/main.6fffc60f.chunk.css.map": "/react-hooks-forecast-app/static/css/main.6fffc60f.chunk.css.map"
@@ -19,6 +19,6 @@
     "static/css/2.3d6e4bb6.chunk.css",
     "static/js/2.1c2395e4.chunk.js",
     "static/css/main.6fffc60f.chunk.css",
-    "static/js/main.b9337875.chunk.js"
+    "static/js/main.00bb9b9c.chunk.js"
   ]
 }
