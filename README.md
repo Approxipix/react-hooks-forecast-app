@@ -1,23 +1,66 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React HooksF Forecast App
+Simple application based on React/Redux with actual weather information and forecast.
+<div>
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/approxipix/react-hooks-forecast-app?color=2b9348">
+  <a href="https://david-dm.org/approxipix/react-hooks-forecast-app"><img src="https://david-dm.org/approxipix/react-hooks-forecast-app/status.svg" alt="Dependencies status" /></a>
+  <a href="https://github.com/approxipix/react-hooks-forecast-app/blob/master/LICENSE"><img src="https://img.shields.io/github/license/elangosundar/awesome-README-templates?color=2b9348" alt="License Badge"/></a>
+</div>
 
-## Available Scripts
+## Live Demo
+Link: https://approxipix.github.io/react-hooks-forecast-app
 
-In the project directory, you can run:
+## Tech stack
+* [React](https://github.com/facebook/react)
+* [Redux](https://github.com/reactjs/redux)
+* [React Thunk](https://github.com/reduxjs/redux-thunk)
+* [Antd](https://ant.design)
+* [OpenWeatherMap API](https://openweathermap.org/api)
+* [Geobytes City API](https://geobytes.com)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.<br />
+Clone project:
+```shell
+https://github.com/Approxipix/react-hooks-forecast-app.git
+```
+
+Then change into that folder:
+```shell
+cd react-hooks-forecast-app
+```
+
+Install project dependencies:
+```shell
+npm install
+```
+
+Build for production:
+```shell
+npm run build
+```
+
+Start up a local server:
+```shell
+npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Instructions
 
-### `npm run build`
+You need a free API Key by [OpenWeatherMap](http://openweathermap.org/) to fetch weather information.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can set API Key in two ways:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+1. Go to ```src/redux/rootReducer/reducer.js``` and set your API Key in initial state.
+    ```shell
+    const initialState = {
+      apiKey: <API_KEY>,
+      ...
+    };
+    ```
+2. After you run the project, go to the settings page ([http://localhost:3000/settings](http://localhost:3000/settings)) and set your API key.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License  <a href="https://github.com/approxipix/react-hooks-forecast-app/blob/master/LICENSE"><img src="https://img.shields.io/github/license/elangosundar/awesome-README-templates?color=2b9348" alt="License Badge"/></a>
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/approxipix/react-hooks-forecast-app/blob/master/LICENSE) file for more information.
+
