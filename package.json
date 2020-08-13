@@ -2,7 +2,7 @@
   "name": "react-hooks-forecast-app",
   "version": "0.1.0",
   "author": "Yaroslav Afanasiev <yaroslav.afanassiev@gmail.com>",
-  "homepage": "http://approxipix.github.io/react-hooks-forecast-app",
+  "homepage": "https://approxipix.github.io/react-hooks-forecast-app/",
   "license": "MIT",
   "dependencies": {
     "antd": "^3.25.0",
