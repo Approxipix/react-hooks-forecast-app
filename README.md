@@ -2,8 +2,10 @@
 Simple application based on React/Redux with actual weather information and forecast.
 <div>
   <img alt="Last Commit" src="https://img.shields.io/github/last-commit/approxipix/react-hooks-forecast-app?color=2b9348">
-  <a href="https://david-dm.org/approxipix/react-hooks-forecast-app"><img src="https://david-dm.org/approxipix/react-hooks-forecast-app/status.svg" alt="Dependencies status" /></a>
-  <a href="https://github.com/approxipix/react-hooks-forecast-app/blob/master/LICENSE"><img src="https://img.shields.io/github/license/elangosundar/awesome-README-templates?color=2b9348" alt="License Badge"/></a>
+  <img src="https://img.shields.io/depfu/approxipix/react-hooks-forecast-app" alt="Dependencies status" />
+  <a href="https://github.com/approxipix/react-hooks-forecast-app/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/elangosundar/awesome-README-templates?color=2b9348" alt="License Badge"/>
+  </a>
 </div>
 
 ## Live Demo
